@@ -1,0 +1,1 @@
+read file && grep 'http://' $file | sed 's/.*\(http:.*\)\".*/\1/' > urlextract.txt && cat urlextract.txt
